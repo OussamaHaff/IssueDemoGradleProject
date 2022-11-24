@@ -22,4 +22,4 @@ jobs:
     - name: Setup Gradle
       uses: gradle/gradle-build-action@v2
     - name: Run build with Gradle Wrapper
-      run: ./gradlew build
+      run: ./gradlew :gradle:plugins:assemble --refresh-dependencies --no-build-cache --stacktrace
