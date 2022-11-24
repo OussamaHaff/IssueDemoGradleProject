@@ -5,7 +5,7 @@ plugins {
     application
 }
 
-group = "org.example"
+group = "com.demo.greeting"
 version = "1.0-SNAPSHOT"
 
 repositories {

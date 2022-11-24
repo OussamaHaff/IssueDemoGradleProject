@@ -10,9 +10,9 @@ plugins {
 
 gradlePlugin {
     plugins {
-        create("com.demo.GreetingPlugin.java") {
-            id = "com.demo.greetingplugin"
-            implementationClass = "com.demo.GreetingPlugin"
+        create("com.demo.greeting") {
+            id = "com.demo.greeting"
+            implementationClass = "com.demo.greeting.GreetingPlugin"
         }
     }
 }
