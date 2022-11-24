@@ -1,8 +1,5 @@
-
-rootProject.name = "IssueDemoGradleProject"
-
+// Empty file, only present so that buildSrc can be executed and imported correctly.
 pluginManagement {
-    includeBuild("gradle/plugins")
     repositories {
         mavenCentral()
         gradlePluginPortal()
